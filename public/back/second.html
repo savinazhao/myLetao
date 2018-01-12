@@ -32,9 +32,9 @@
             分类管理
         </a>
         <!--二级管理-->
-         <div class="second" style='display: none'>
-           <a href="first.html">一级管理</a>
-           <a href="second.html">二级管理</a>
+         <div class="second" style='display: block'>
+           <a href="first.html" >一级管理</a>
+           <a href="second.html" class='active'>二级管理</a>
          </div>
         
       </li>
@@ -63,12 +63,11 @@
       <!--路径导航-->
       <ol class="breadcrumb">
         <li><a href="#">管理系统</a></li>
-        <li class="active">首页</li>
+        <li><a href="#">分类管理</a></li>
+        <li class="active">二级管理</li>
       </ol>
       <!--内容区域-->
       <div class="lt_content">
-        <div class="echart_left"></div>
-        <div class="echart_right"></div>
       </div>
     </div>
   
@@ -105,4 +104,3 @@
 <script src='libs/nprogress/nprogress.js'></script>
 <script src='libs/echarts/echarts.min.js'></script>
 <script src='js/common.js'></script>
-<script src='js/index.js'></script>
